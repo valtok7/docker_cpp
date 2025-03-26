@@ -1,4 +1,7 @@
 {
-    "iis.configDir": "",
-    "cmake.sourceDirectory": "/workspaces/docker_cpp"
+    "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+    }
 }
