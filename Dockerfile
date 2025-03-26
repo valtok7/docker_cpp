@@ -10,7 +10,8 @@ ENV TZ=Asia/Tokyo
 
 # 開発環境のシステムインストール
 RUN apt install -y wget \
-  g++ \
+  build-essential \
+  gdb \
   cmake \
   git \
   clang-format

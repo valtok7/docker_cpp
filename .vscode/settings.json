@@ -1,3 +1,4 @@
 {
-    "iis.configDir": ""
+    "iis.configDir": "",
+    "cmake.sourceDirectory": "/workspaces/docker_cpp"
 }
